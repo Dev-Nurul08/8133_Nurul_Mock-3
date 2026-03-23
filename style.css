@@ -1,0 +1,110 @@
+body{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+.home{
+    background: #3e4859;
+    height: 100vh;
+}
+.game-screen{
+    background: #3e4859;
+    height: 100vh;
+}
+.game-cube
+{
+    width: 900px;
+    height: 600px;
+   background: #f6c6b7;
+   padding: 40px;
+   color: #3e4859;
+}
+
+.pixel-corners {
+  clip-path: polygon(
+    0px calc(100% - 70px),
+    10px calc(100% - 70px),
+    10px calc(100% - 50px),
+    20px calc(100% - 50px),
+    20px calc(100% - 30px),
+    30px calc(100% - 30px),
+    30px calc(100% - 20px),
+    50px calc(100% - 20px),
+    50px calc(100% - 10px),
+    70px calc(100% - 10px),
+    70px 100%,
+    calc(100% - 70px) 100%,
+    calc(100% - 70px) calc(100% - 10px),
+    calc(100% - 50px) calc(100% - 10px),
+    calc(100% - 50px) calc(100% - 20px),
+    calc(100% - 30px) calc(100% - 20px),
+    calc(100% - 30px) calc(100% - 30px),
+    calc(100% - 20px) calc(100% - 30px),
+    calc(100% - 20px) calc(100% - 50px),
+    calc(100% - 10px) calc(100% - 50px),
+    calc(100% - 10px) calc(100% - 70px),
+    100% calc(100% - 70px),
+    100% 70px,
+    calc(100% - 10px) 70px,
+    calc(100% - 10px) 50px,
+    calc(100% - 20px) 50px,
+    calc(100% - 20px) 30px,
+    calc(100% - 30px) 30px,
+    calc(100% - 30px) 20px,
+    calc(100% - 50px) 20px,
+    calc(100% - 50px) 10px,
+    calc(100% - 70px) 10px,
+    calc(100% - 70px) 0px,
+    70px 0px,
+    70px 10px,
+    50px 10px,
+    50px 20px,
+    30px 20px,
+    30px 30px,
+    20px 30px,
+    20px 50px,
+    10px 50px,
+    10px 70px,
+    0px 70px
+  );
+}
+
+input{
+    border: none;
+    outline: none;
+ padding: 15px 40px !important;
+    
+}
+.btn-corner{
+     clip-path: polygon(
+    0px calc(100% - 16px),
+    4px calc(100% - 16px),
+    4px calc(100% - 8px),
+    8px calc(100% - 8px),
+    8px calc(100% - 4px),
+    16px calc(100% - 4px),
+    16px 100%,
+    calc(100% - 16px) 100%,
+    calc(100% - 16px) calc(100% - 4px),
+    calc(100% - 8px) calc(100% - 4px),
+    calc(100% - 8px) calc(100% - 8px),
+    calc(100% - 4px) calc(100% - 8px),
+    calc(100% - 4px) calc(100% - 16px),
+    100% calc(100% - 16px),
+    100% 16px,
+    calc(100% - 4px) 16px,
+    calc(100% - 4px) 8px,
+    calc(100% - 8px) 8px,
+    calc(100% - 8px) 4px,
+    calc(100% - 16px) 4px,
+    calc(100% - 16px) 0px,
+    16px 0px,
+    16px 4px,
+    8px 4px,
+    8px 8px,
+    4px 8px,
+    4px 16px,
+    0px 16px
+  );
+ 
+}
